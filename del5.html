@@ -13,15 +13,16 @@
 
         <h1 class="anchor anchorWithStickyNavbar_LWe7" id="for-løkker">For-løkker og lister (forts.)<a class="hash-link" href="#for-løkker" title="Direct link to heading">​</a></h1>
         
-        <p>Vi skal i dette eksemplet gjøre en endring på hvert elements i en liste, og deretter opprette en ny liste, og legge en endrede elementene i denne nye listen.
+        <p>I dette eksemplet skal vi gjøre en endring på hvert element i en liste, og deretter opprette en ny liste, og legge de endrede elementene i den nye listen.
         </p>
 
 <pre><code class="language-python"># Vi har en liste med navn
 liste = ["Per", "Ola", "Kari", "Lise"]
 
-# Vi lager en ny liste der alle navn skal bli gjort om til store bokstaver (uppercase)
+# Vi lager en ny liste 
 store_navn = []
 
+# For-løkken gjør om navn til store bokstaver (uppercase)
 for navn in liste:
     navn = navn.upper()
     store_navn.append(navn)
