@@ -22,7 +22,8 @@ liste = ["Per", "Ola", "Kari", "Lise"]
 # Vi lager en ny liste 
 store_navn = []
 
-# For-løkken gjør om navn til store bokstaver (uppercase)
+# For-løkken gjør om navn til store bokstaver (uppercase) og
+# legger deretter navnet til listen store_navn
 for navn in liste:
     navn = navn.upper()
     store_navn.append(navn)
@@ -31,7 +32,13 @@ print("Opprinnelig liste:", liste)
 print("Navn i store bokstaver:", store_navn)
 </code></pre>
         
-        <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Klikk for Pythontutor</summary><div><div class="collapsibleContent_i85q"><iframe width="100%" height="300" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=print%28%227-gangen%22%29%0Afor%20tall%20in%20%5B1,%202,%203,%204,%205,%206,%207,%208%20,%209,%2010%5D%3A%0A%20%20%20%20gange%20%3D%207%20*%20tall%0A%20%20%20%20print%28f%227%20*%20%7Btall%7D%20%3D%20%7Bgange%7D%22%29&amp;codeDivHeight=400&amp;codeDivWidth=350&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"> </iframe></div></div></details>
+        <details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>Klikk for Pythontutor</summary><div><div class="collapsibleContent_i85q">
+            
+            <!-- <iframe width="100%" height="300" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=print%28%227-gangen%22%29%0Afor%20tall%20in%20%5B1,%202,%203,%204,%205,%206,%207,%208%20,%209,%2010%5D%3A%0A%20%20%20%20gange%20%3D%207%20*%20tall%0A%20%20%20%20print%28f%227%20*%20%7Btall%7D%20%3D%20%7Bgange%7D%22%29&amp;codeDivHeight=400&amp;codeDivWidth=350&amp;cumulative=false&amp;curInstr=0&amp;heapPrimitives=nevernest&amp;origin=opt-frontend.js&amp;py=311&amp;rawInputLstJSON=%5B%5D&amp;textReferences=false"> </iframe> -->
+
+            <iframe width="1024" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=liste%20%3D%20%5B%22Per%22,%20%22Ola%22,%20%22Kari%22,%20%22Lise%22%5D%0A%0Astore_navn%20%3D%20%5B%5D%0A%0Afor%20navn%20in%20liste%3A%0A%20%20%20%20navn%20%3D%20navn.upper%28%29%0A%20%20%20%20store_navn.append%28navn%29%0A%0Aprint%28%22Opprinnelig%20liste%3A%22,%20liste%29%0Aprint%28%22Navn%20i%20store%20bokstaver%3A%22,%20store_navn%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=311&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+        
+        </div></div></details>
         
         <a href="index.html" style="padding-bottom: 30px">Tilbake til start</a>
 
